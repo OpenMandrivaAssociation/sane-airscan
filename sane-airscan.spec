@@ -12,6 +12,7 @@ BuildRequires: pkgconfig(gnutls)
 BuildRequires: pkgconfig(libjpeg)
 BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(libxml-2.0)
+BuildRequires: pkgconfig(sane-backends)
 Recommends: ipp-usb
 Supplements: sane-backends
 
