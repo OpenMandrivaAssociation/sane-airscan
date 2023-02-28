@@ -1,0 +1,24 @@
+From 386486f0a8c084050c31d5acc134d752789981b8 Mon Sep 17 00:00:00 2001
+From: Simon Brand <simon.brand@postadigitale.de>
+Date: Sat, 29 Jan 2022 00:31:09 +0000
+Subject: [PATCH 03/36] Added Brother MFC-7360N
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 257db59..e874a72 100644
+--- a/README.md
++++ b/README.md
+@@ -61,6 +61,7 @@ Legend:
+ | Brother DCP-L2540DW                | No                        | Yes                       |
+ | Brother DCP-L2550DN / DCP-L2550DW  | Yes                       |                           |
+ | Brother HL-L2395DW series          | Yes                       |                           |
++| Brother MFC-7360N                  | No                        | Yes                       |
+ | Brother MFC-J1300DW                | Yes                       |                           |
+ | Brother MFC-J485DW                 | Yes                       |                           |
+ | Brother MFC-J625DW                 | No                        | Yes                       |
+-- 
+2.40.0.rc0
+

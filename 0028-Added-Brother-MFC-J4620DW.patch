@@ -1,0 +1,24 @@
+From 6b7d128903eae5e5b637467334f0a06b0fb4a2c8 Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Thu, 30 Jun 2022 02:09:43 +0300
+Subject: [PATCH 28/36] Added Brother MFC-J4620DW
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 39aa8da..dcd1fba 100644
+--- a/README.md
++++ b/README.md
+@@ -69,6 +69,7 @@ Legend:
+ | Brother MFC-8710DW                 | No                        | Yes                       |
+ | Brother MFC-J1300DW                | Yes                       |                           |
+ | Brother MFC-J4410DW                | No                        | Yes                       |
++| Brother MFC-J4620DW                | No                        | Yes                       |
+ | Brother MFC-J485DW                 | Yes                       |                           |
+ | Brother MFC-J625DW                 | No                        | Yes                       |
+ | Brother MFC-L2700DW                | No                        | Yes                       |
+-- 
+2.40.0.rc0
+

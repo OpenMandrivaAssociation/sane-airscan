@@ -1,0 +1,42 @@
+From bfafb80898a304e1dcee5d95a38ae100716dec4f Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Sat, 25 Feb 2023 20:18:04 +0300
+Subject: [PATCH 35/36] Added HP LaserJet Pro M329 and footnote for M329/M428dw
+ (fixes #271)
+
+---
+ README.md | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index f4bf494..ffe3021 100644
+--- a/README.md
++++ b/README.md
+@@ -205,10 +205,11 @@ Legend:
+ | HP LaserJet MFP M630               | Yes                       |                           |
+ | HP LaserJet Pro M28a               | Yes<sup>[3](#note3)</sup> |                           |
+ | HP LaserJet Pro M28w               | Yes                       | Yes                       |
++| HP LaserJet Pro M329               | Yes<sup>[9](#note3)</sup> |                           |
+ | HP LaserJet Pro MFP 148fdw         | Yes                       |                           |
+ | HP LaserJet Pro MFP M125 series    | No                        | Yes                       |
+ | HP LaserJet Pro MFP M225dn         | No                        | Yes                       |
+-| HP LaserJet Pro MFP M428dw         | Yes                       |                           |
++| HP LaserJet Pro MFP M428dw         | Yes<sup>[9](#note3)</sup> |                           |
+ | HP LaserJet Pro MFP M521 series    | No                        | Yes                       |
+ | HP Laser MFP 131 133 135-138       | Yes                       |                           |
+ | HP Neverstop Laser MFP 1202nw      | Yes                       |                           |
+@@ -286,6 +287,11 @@ helps, version V4.00.02.20 MAY-27-2020 known to work.
+ <a name="note8"><sup>[8]</sup></a>: eSCL needs to be manually enabled on this device:
+ System-settings->Network settings->Airprint settings->Airscan
+ 
++<a name="note8"><sup>[9]</sup></a>: Scanning remotely and with IPP-over-USB
++active is disabled by default. In the Embedded Web Server:
++Settings->Security->Administrator Settings->Enable Scan from a Computer or
++Mobile Device->Apply
++
+ ### Distros that come with sane-airscan
+ 
+ The following distros (in alphabetical order) include `sane-airscan`
+-- 
+2.40.0.rc0
+

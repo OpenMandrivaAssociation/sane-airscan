@@ -1,0 +1,29 @@
+From 95163245b60a92f55657329ab4dec8ef81d336fe Mon Sep 17 00:00:00 2001
+From: Thomas P <TPXP@users.noreply.github.com>
+Date: Sat, 13 Nov 2021 22:44:55 +0100
+Subject: [PATCH 01/36] Added Brother DCP-J552DW
+
+I have one at home, here's what `scanimage -L` says:
+```
+device `airscan:w0:Brother DCP-J552DW' is a WSD Brother DCP-J552DW
+```
+The best part is it actually works! Thanks for this software :heart:
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 257db59..7e55f59 100644
+--- a/README.md
++++ b/README.md
+@@ -58,6 +58,7 @@ Legend:
+ | ---------------------------------- | :-----------------------: | :-----------------------: |
+ | Brother ADS-2700W                  | No                        | Yes                       |
+ | Brother DCP-9020CDW                | No                        | Yes                       |
++| Brother DCP-J552DW                 | No                        | Yes                       |
+ | Brother DCP-L2540DW                | No                        | Yes                       |
+ | Brother DCP-L2550DN / DCP-L2550DW  | Yes                       |                           |
+ | Brother HL-L2395DW series          | Yes                       |                           |
+-- 
+2.40.0.rc0
+

@@ -1,0 +1,24 @@
+From f57ac5a8fff6798a3fe08c92dcabfbc429542abc Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Wed, 4 May 2022 20:52:28 +0300
+Subject: [PATCH 19/36] Added Samsung SCX-3400 Series
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 5234223..9fb9728 100644
+--- a/README.md
++++ b/README.md
+@@ -189,6 +189,7 @@ Legend:
+ | Samsung M267x 287x Series          | No                        | Yes                       |
+ | Samsung M288x Series               | No                        | Yes                       |
+ | Samsung M337x 387x 407x Series     | No                        | Yes<sup>[8](#note8)</sup> |
++| Samsung SCX-3400 Series            | No                        | Yes                       |
+ | Xerox B205                         | Yes                       | Yes                       |
+ | Xerox B215                         | Yes                       |                           |
+ | Xerox C235                         | Yes                       |                           |
+-- 
+2.40.0.rc0
+

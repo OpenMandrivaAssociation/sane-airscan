@@ -1,0 +1,24 @@
+From fb23e2d1e58c0d57ee63d21f9f0066f29f23620f Mon Sep 17 00:00:00 2001
+From: Jason Nader <ammgws@users.noreply.github.com>
+Date: Sat, 11 Jun 2022 16:16:09 +0900
+Subject: [PATCH 26/36] Add Canon TS8230
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 4bc6532..736276a 100644
+--- a/README.md
++++ b/README.md
+@@ -111,6 +111,7 @@ Legend:
+ | Canon TS 6151                      | Yes                       |                           |
+ | Canon TS 6200 series               | Yes                       | Yes                       |
+ | Canon TS 6400 series               | Yes                       |                           |
++| Canon TS 8230 series               |                           | Yes                       |
+ | Dell C1765nfw Color MFP            | No                        | Yes                       |
+ | Dell C2665dnf Color Laser Printer  | No                        | Yes                       |
+ | Dell C3765dnf Color MFP            | No                        | Yes                       |
+-- 
+2.40.0.rc0
+

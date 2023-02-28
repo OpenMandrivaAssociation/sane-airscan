@@ -1,0 +1,11 @@
+diff -up sane-airscan-0.99.27/README.md.13~ sane-airscan-0.99.27/README.md
+--- sane-airscan-0.99.27/README.md.13~	2023-02-28 21:43:53.472166279 +0100
++++ sane-airscan-0.99.27/README.md	2023-02-28 21:44:07.915292665 +0100
+@@ -68,6 +68,7 @@ Legend:
+ | Brother MFC-7360N                  | No                        | Yes                       |
+ | Brother MFC-8710DW                 | No                        | Yes                       |
+ | Brother MFC-J1300DW                | Yes                       |                           |
++| Brother MFC-J4410DW                | No                        | Yes                       |
+ | Brother MFC-J485DW                 | Yes                       |                           |
+ | Brother MFC-J625DW                 | No                        | Yes                       |
+ | Brother MFC-L2700DW                | No                        | Yes                       |

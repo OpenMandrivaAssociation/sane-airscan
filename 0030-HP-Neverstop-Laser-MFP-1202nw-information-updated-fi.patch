@@ -1,0 +1,26 @@
+From c93f4d67091b9a904446b7ce895a6330d72f9249 Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Tue, 5 Jul 2022 14:59:16 +0300
+Subject: [PATCH 30/36] HP Neverstop Laser MFP 1202nw information updated
+ (fixes #244)
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 9b459a5..d606c1b 100644
+--- a/README.md
++++ b/README.md
+@@ -168,7 +168,7 @@ Legend:
+ | HP LaserJet Pro MFP M428dw         | Yes                       |                           |
+ | HP LaserJet Pro MFP M521 series    | No                        | Yes                       |
+ | HP Laser MFP 131 133 135-138       | Yes                       |                           |
+-| HP Neverstop Laser MFP 1202nw      | ?                         | ?                         |
++| HP Neverstop Laser MFP 1202nw      | Yes                       |                           |
+ | HP OfficeJet 3830 series           | Yes                       |                           |
+ | HP Officejet 4630                  | Yes                       |                           |
+ | HP Officejet Pro 6970              | Yes                       |                           |
+-- 
+2.40.0.rc0
+

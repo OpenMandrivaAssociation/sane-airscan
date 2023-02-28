@@ -1,0 +1,11 @@
+diff -up sane-airscan-0.99.27/README.md.5~ sane-airscan-0.99.27/README.md
+--- sane-airscan-0.99.27/README.md.5~	2023-02-28 21:42:39.427518895 +0100
++++ sane-airscan-0.99.27/README.md	2023-02-28 21:43:03.141726126 +0100
+@@ -62,6 +62,7 @@ Legend:
+ | Brother DCP-J552DW                 | No                        | Yes                       |
+ | Brother DCP-L2540DW                | No                        | Yes                       |
+ | Brother DCP-L2550DN / DCP-L2550DW  | Yes                       |                           |
++| Brother HL-L2380DW series          | No                        | Yes                       |
+ | Brother HL-L2395DW series          | Yes                       |                           |
+ | Brother MFC-7360N                  | No                        | Yes                       |
+ | Brother MFC-J1300DW                | Yes                       |                           |

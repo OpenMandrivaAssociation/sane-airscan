@@ -1,0 +1,25 @@
+From d7a2bb64fa8d9df16083822c836e98d2b991dcba Mon Sep 17 00:00:00 2001
+From: Jason Nader <ammgws@users.noreply.github.com>
+Date: Sat, 11 Jun 2022 21:38:36 +0900
+Subject: [PATCH 27/36] Update README.md
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 736276a..39aa8da 100644
+--- a/README.md
++++ b/README.md
+@@ -111,7 +111,7 @@ Legend:
+ | Canon TS 6151                      | Yes                       |                           |
+ | Canon TS 6200 series               | Yes                       | Yes                       |
+ | Canon TS 6400 series               | Yes                       |                           |
+-| Canon TS 8230 series               |                           | Yes                       |
++| Canon TS 8230 series               | No                        | Yes                       |
+ | Dell C1765nfw Color MFP            | No                        | Yes                       |
+ | Dell C2665dnf Color Laser Printer  | No                        | Yes                       |
+ | Dell C3765dnf Color MFP            | No                        | Yes                       |
+-- 
+2.40.0.rc0
+

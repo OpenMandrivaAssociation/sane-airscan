@@ -1,0 +1,24 @@
+From c4df549aff81afedcd5072521a9aa34ebf68efc3 Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Wed, 4 May 2022 20:45:00 +0300
+Subject: [PATCH 16/36] Added Canon G600 series (fixes #189)
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 151aa7c..c892647 100644
+--- a/README.md
++++ b/README.md
+@@ -72,6 +72,7 @@ Legend:
+ | Brother MFC-L2720DW                | No                        | Yes                       |
+ | Brother MFC-L2750DW                | Yes                       | Yes                       |
+ | Canon D570                         | Yes                       |                           |
++| Canon G600 series                  | Yes                       |                           |
+ | Canon imageCLASS MF642C/643C/644C  | Yes                       |                           |
+ | Canon imageCLASS MF743cdw          | Yes<sup>[1](#note1)</sup> |                           |
+ | Canon imageRUNNER 2625/2630        | Yes                       | Yes                       |
+-- 
+2.40.0.rc0
+

@@ -1,0 +1,25 @@
+From e551cef320a80bbe145d8d2c72b248eae5bc1b10 Mon Sep 17 00:00:00 2001
+From: Alexander Pevzner <pzz@apevzner.com>
+Date: Fri, 6 May 2022 15:44:10 +0300
+Subject: [PATCH 25/36] Fixed Kyocera ECOSYS M2035dn description (see #234)
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 193bae8..4bc6532 100644
+--- a/README.md
++++ b/README.md
+@@ -179,7 +179,7 @@ Legend:
+ | HP ScanJet Pro 3500 fn1            | Yes<sup>[3](#note3)</sup> |                           |
+ | HP ScanJet Pro 4500 fn1            | Yes                       |                           |
+ | HP Smart Tank Plus 550 series      | Yes                       |                           |
+-| Kyocera ECOSYS M2035dn             | Yes                       | Yes<sup>[5](#note5)</sup> |
++| Kyocera ECOSYS M2035dn             | No                        | Yes<sup>[5](#note5)</sup> |
+ | Kyocera ECOSYS M2040dn             | Yes                       | Yes<sup>[5](#note5)</sup> |
+ | Kyocera ECOSYS M5521cdw            | Yes                       | Yes<sup>[5](#note5)</sup> |
+ | Kyocera ECOSYS M5526cdw            | Yes                       |                           |
+-- 
+2.40.0.rc0
+

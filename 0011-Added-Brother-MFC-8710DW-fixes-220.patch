@@ -1,0 +1,11 @@
+diff -up sane-airscan-0.99.27/README.md.11~ sane-airscan-0.99.27/README.md
+--- sane-airscan-0.99.27/README.md.11~	2023-02-28 21:43:15.084830531 +0100
++++ sane-airscan-0.99.27/README.md	2023-02-28 21:43:42.224067873 +0100
+@@ -66,6 +66,7 @@ Legend:
+ | Brother HL-L2380DW series          | No                        | Yes                       |
+ | Brother HL-L2395DW series          | Yes                       |                           |
+ | Brother MFC-7360N                  | No                        | Yes                       |
++| Brother MFC-8710DW                 | No                        | Yes                       |
+ | Brother MFC-J1300DW                | Yes                       |                           |
+ | Brother MFC-J485DW                 | Yes                       |                           |
+ | Brother MFC-J625DW                 | No                        | Yes                       |
