@@ -1,6 +1,6 @@
 Name:		sane-airscan
-Version:	0.99.27
-Release:	3
+Version:	0.99.29
+Release:	1
 Source0:	https://github.com/alexpevzner/sane-airscan/archive/%{version}/%{name}-%{version}.tar.gz
 # Patches from upstream git
 Patch0:		0001-Added-Brother-DCP-J552DW.patch
