@@ -1,29 +1,21 @@
-From 95163245b60a92f55657329ab4dec8ef81d336fe Mon Sep 17 00:00:00 2001
-From: Thomas P <TPXP@users.noreply.github.com>
-Date: Sat, 13 Nov 2021 22:44:55 +0100
-Subject: [PATCH 01/36] Added Brother DCP-J552DW
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Brother DCP J552DW (already in 0.99.38)
 
-I have one at home, here's what `scanimage -L` says:
-```
-device `airscan:w0:Brother DCP-J552DW' is a WSD Brother DCP-J552DW
-```
-The best part is it actually works! Thanks for this software :heart:
+Change is already present in upstream 0001 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
+
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 257db59..7e55f59 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -58,6 +58,7 @@ Legend:
- | ---------------------------------- | :-----------------------: | :-----------------------: |
- | Brother ADS-2700W                  | No                        | Yes                       |
- | Brother DCP-9020CDW                | No                        | Yes                       |
-+| Brother DCP-J552DW                 | No                        | Yes                       |
- | Brother DCP-L2540DW                | No                        | Yes                       |
- | Brother DCP-L2550DN / DCP-L2550DW  | Yes                       |                           |
- | Brother HL-L2395DW series          | Yes                       |                           |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

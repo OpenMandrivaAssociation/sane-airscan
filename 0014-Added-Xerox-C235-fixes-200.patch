@@ -1,24 +1,21 @@
-From 86861857572389c803e5c3e39effa3ab23feef3d Mon Sep 17 00:00:00 2001
-From: Alexander Pevzner <pzz@apevzner.com>
-Date: Wed, 4 May 2022 20:41:57 +0300
-Subject: [PATCH 14/36] Added Xerox C235 (fixes #200)
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Xerox C235 fixes 200 (already in 0.99.38)
+
+Change is already present in upstream 0014 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 2d1cd8b..b329b1e 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -187,6 +187,7 @@ Legend:
- | Samsung M337x 387x 407x Series     | No                        | Yes<sup>[8](#note8)</sup> |
- | Xerox B205                         | Yes                       | Yes                       |
- | Xerox B215                         | Yes                       |                           |
-+| Xerox C235                         | Yes                       |                           |
- | Xerox VersaLink B405               | Yes                       |                           |
- | Xerox WorkCentre 3025              | No                        | Yes                       |
- | TODO                               |                           |                           |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

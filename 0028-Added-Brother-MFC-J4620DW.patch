@@ -1,24 +1,21 @@
-From 6b7d128903eae5e5b637467334f0a06b0fb4a2c8 Mon Sep 17 00:00:00 2001
-From: Alexander Pevzner <pzz@apevzner.com>
-Date: Thu, 30 Jun 2022 02:09:43 +0300
-Subject: [PATCH 28/36] Added Brother MFC-J4620DW
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Brother MFC J4620DW (already in 0.99.38)
+
+Change is already present in upstream 0028 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 39aa8da..dcd1fba 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -69,6 +69,7 @@ Legend:
- | Brother MFC-8710DW                 | No                        | Yes                       |
- | Brother MFC-J1300DW                | Yes                       |                           |
- | Brother MFC-J4410DW                | No                        | Yes                       |
-+| Brother MFC-J4620DW                | No                        | Yes                       |
- | Brother MFC-J485DW                 | Yes                       |                           |
- | Brother MFC-J625DW                 | No                        | Yes                       |
- | Brother MFC-L2700DW                | No                        | Yes                       |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

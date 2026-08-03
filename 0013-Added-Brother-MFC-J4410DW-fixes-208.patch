@@ -1,11 +1,21 @@
-diff -up sane-airscan-0.99.27/README.md.13~ sane-airscan-0.99.27/README.md
---- sane-airscan-0.99.27/README.md.13~	2023-02-28 21:43:53.472166279 +0100
-+++ sane-airscan-0.99.27/README.md	2023-02-28 21:44:07.915292665 +0100
-@@ -68,6 +68,7 @@ Legend:
- | Brother MFC-7360N                  | No                        | Yes                       |
- | Brother MFC-8710DW                 | No                        | Yes                       |
- | Brother MFC-J1300DW                | Yes                       |                           |
-+| Brother MFC-J4410DW                | No                        | Yes                       |
- | Brother MFC-J485DW                 | Yes                       |                           |
- | Brother MFC-J625DW                 | No                        | Yes                       |
- | Brother MFC-L2700DW                | No                        | Yes                       |
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Brother MFC J4410DW fixes 208 (already in 0.99.38)
+
+Change is already present in upstream 0013 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
+
+---
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/README.md b/README.md
+index 1111111..2222222 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

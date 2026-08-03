@@ -1,24 +1,21 @@
-From ba8ce0a592e0be2d3202b3814f561826e4ce57de Mon Sep 17 00:00:00 2001
-From: Alexander Pevzner <pzz@apevzner.com>
-Date: Fri, 6 May 2022 01:40:17 +0300
-Subject: [PATCH 23/36] Added Canon TS 3400 (fixes #202)
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Canon TS 3400 fixes 202 (already in 0.99.38)
+
+Change is already present in upstream 0023 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 0546fa8..ec47ac5 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -107,6 +107,7 @@ Legend:
- | Canon TR7500 Series                | No                        | Yes                       |
- | Canon TS 3100                      | Yes                       |                           |
- | Canon TS 3300                      | Yes                       |                           |
-+| Canon TS 3400                      | Yes                       |                           |
- | Canon TS 6151                      | Yes                       |                           |
- | Canon TS 6200 series               | Yes                       | Yes                       |
- | Canon TS 6400 series               | Yes                       |                           |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

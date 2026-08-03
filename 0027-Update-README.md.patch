@@ -1,25 +1,21 @@
-From d7a2bb64fa8d9df16083822c836e98d2b991dcba Mon Sep 17 00:00:00 2001
-From: Jason Nader <ammgws@users.noreply.github.com>
-Date: Sat, 11 Jun 2022 21:38:36 +0900
-Subject: [PATCH 27/36] Update README.md
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Update README.md (already in 0.99.38)
+
+Change is already present in upstream 0027 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 736276a..39aa8da 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -111,7 +111,7 @@ Legend:
- | Canon TS 6151                      | Yes                       |                           |
- | Canon TS 6200 series               | Yes                       | Yes                       |
- | Canon TS 6400 series               | Yes                       |                           |
--| Canon TS 8230 series               |                           | Yes                       |
-+| Canon TS 8230 series               | No                        | Yes                       |
- | Dell C1765nfw Color MFP            | No                        | Yes                       |
- | Dell C2665dnf Color Laser Printer  | No                        | Yes                       |
- | Dell C3765dnf Color MFP            | No                        | Yes                       |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

@@ -1,24 +1,21 @@
-From 66906342d3d602e5c3855135a12b5729d7566b64 Mon Sep 17 00:00:00 2001
-From: Alexander Pevzner <pzz@apevzner.com>
-Date: Mon, 23 Jan 2023 23:48:33 +0300
-Subject: [PATCH 31/36] Added Canon TR8600 Scanner
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Added Canon TR8600 Scanner (already in 0.99.38)
+
+Change is already present in upstream 0031 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index d606c1b..d144c2e 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -106,6 +106,7 @@ Legend:
- | Canon PIXMA TS 9550 Series         | Yes                       |                           |
- | Canon TR4529 (PIXMA TR4500 Series) | Yes                       | Yes                       |
- | Canon TR7500 Series                | No                        | Yes                       |
-+| Canon TR8600 Scanner               | Yes                       |                           |
- | Canon TS 3100                      | Yes                       |                           |
- | Canon TS 3300                      | Yes                       |                           |
- | Canon TS 3400                      | Yes                       |                           |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

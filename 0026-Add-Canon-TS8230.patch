@@ -1,24 +1,21 @@
-From fb23e2d1e58c0d57ee63d21f9f0066f29f23620f Mon Sep 17 00:00:00 2001
-From: Jason Nader <ammgws@users.noreply.github.com>
-Date: Sat, 11 Jun 2022 16:16:09 +0900
-Subject: [PATCH 26/36] Add Canon TS8230
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Add Canon TS8230 (already in 0.99.38)
+
+Change is already present in upstream 0026 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
 
 ---
- README.md | 1 +
- 1 file changed, 1 insertion(+)
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 diff --git a/README.md b/README.md
-index 4bc6532..736276a 100644
+index 1111111..2222222 100644
 --- a/README.md
 +++ b/README.md
-@@ -111,6 +111,7 @@ Legend:
- | Canon TS 6151                      | Yes                       |                           |
- | Canon TS 6200 series               | Yes                       | Yes                       |
- | Canon TS 6400 series               | Yes                       |                           |
-+| Canon TS 8230 series               |                           | Yes                       |
- | Dell C1765nfw Color MFP            | No                        | Yes                       |
- | Dell C2665dnf Color Laser Printer  | No                        | Yes                       |
- | Dell C3765dnf Color MFP            | No                        | Yes                       |
--- 
-2.40.0.rc0
-
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0

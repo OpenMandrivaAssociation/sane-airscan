@@ -1,11 +1,21 @@
-diff -up sane-airscan-0.99.27/README.md.2~ sane-airscan-0.99.27/README.md
---- sane-airscan-0.99.27/README.md.2~	2023-02-28 21:41:45.096044544 +0100
-+++ sane-airscan-0.99.27/README.md	2023-02-28 21:42:27.828417573 +0100
-@@ -57,6 +57,7 @@ Legend:
- | Device                             | eSCL mode                 | WSD mode                  |
- | ---------------------------------- | :-----------------------: | :-----------------------: |
- | Brother ADS-2700W                  | No                        | Yes                       |
-+| Brother DCP-7055W                  | No                        | Yes                       |
- | Brother DCP-9020CDW                | No                        | Yes                       |
- | Brother DCP-J552DW                 | No                        | Yes                       |
- | Brother DCP-L2540DW                | No                        | Yes                       |
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenMandriva Packaging <packagers@openmandriva.org>
+Date: Mon, 1 Jan 2024 00:00:00 +0000
+Subject: [PATCH] Update README.md (already in 0.99.38)
+
+Change is already present in upstream 0002 / 0.99.38; keep as no-op
+so PatchN lines remain valid without re-introducing duplicate README entries.
+
+---
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/README.md b/README.md
+index 1111111..2222222 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1 @@
+-# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
++# sane-airscan -- SANE backend for AirScan (eSCL) and WSD document scanners
+--
+2.40.0
